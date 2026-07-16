@@ -2,6 +2,8 @@
 
 A focused, full-stack application for tracking job opportunities from the first save through a final outcome.
 
+[Live demo](https://job-tracker-app-xi-two.vercel.app) · [GitHub repository](https://github.com/mjamalisld421-lab/job-tracker-app)
+
 JobTrack keeps the core job-search workflow in one place: record an opportunity, update its status, search the pipeline, and review progress from a compact dashboard. The project is intentionally single-user and dependency-light so the codebase stays easy to understand, run, and extend.
 
 ## What it does
