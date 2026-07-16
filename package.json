@@ -1,14 +1,16 @@
 {
   "name": "job-tracker-app",
   "version": "1.0.0",
-  "description": "A full-stack job application tracker built with Next.js, TypeScript, Prisma, and SQLite.",
+  "description": "A full-stack job application tracker built with Next.js, TypeScript, Prisma, and PostgreSQL.",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postinstall": "prisma generate",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
     "db:generate": "prisma generate",
     "db:studio": "prisma studio"
   },

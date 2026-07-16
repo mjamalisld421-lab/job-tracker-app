@@ -34,7 +34,7 @@ yarn-error.log*
 .env*
 !.env.example
 
-# prisma local database
+# legacy local SQLite files (not used by the PostgreSQL configuration)
 /prisma/dev.db
 /prisma/dev.db-journal
 
